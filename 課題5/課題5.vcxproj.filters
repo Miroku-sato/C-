@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sample.cpp">
+    <ClInclude Include="Data.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Data.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Sample.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
